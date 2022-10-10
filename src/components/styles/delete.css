@@ -1,0 +1,52 @@
+.delete__card{
+    width: 100%;
+    max-width: 270px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ea4e2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete__tittle{
+    text-align: center;
+    color: #ffffffd1;
+    font-size: 2.4rem;
+}
+
+.delete__btn{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.delete__yes{
+    background-color: #efeff3;
+    padding: 5px;
+    transition: transform 100ms ease;
+    cursor: pointer;
+}
+
+.delete__yes:hover{
+    transform: scale(1.05);
+    transition: transform 100ms ease;
+    filter: brightness(1.3);
+}
+
+.delete__no{
+    background-color: #efeff3;
+    padding: 5px;  
+    cursor: pointer;
+}
+
+.delete__no:hover{
+    transform: scale(1.05);
+    transition: transform 100ms ease;
+    filter: brightness(1.3);
+}
